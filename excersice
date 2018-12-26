@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<!-- saved from url=(0069)file:///home/ukistu04/Documents/uki4/Programming/website/website.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>">
+ </head><script>
+ $(document).ready(function(){
+   $("p1").click(function(){
+     alert("The paragraph was clicked.");
+   });
+ });
+ </script><script>
+ $(document).ready(function(){
+   $("#hide").click(function(){
+     $("ul").hide();
+   });
+   $("#show").click(function(){
+     $("ul").show();
+   });
+ });
+ </script>
+ <script>$(document).ready(function(){
+   $("#flip").click(function(){
+     $("#panel").slideDown("slow");
+   });
+ });
+ </script>
+ <style>
+     .center{text-align:center;
+      }
+      .p{
+        text-align:center;
+      }
+      .image_center{text-align: center;
+      }
+      .welcome{background-color: lightblue;
+        height:290px;
+        padding: 15px;
+        border-radius:20px;
+        width:650px;
+        position: relative;
+        text-align: center;
+        margin: auto}
+
+      .ul{border-radius:20px;
+        background-color: #999da4;
+        height: 200px;
+        padding: 20px;  width: 400px;
+          text-align: left;
+      }
+      .ue{border-radius:20px;
+        background-color: #999da4;
+        height: 200px;
+        padding: 20px;  width: 400px;
+        float:right;
+      margin-top:-230px}
+
+      .bog{background-color: lightblue;
+        align:center;
+      }
+      #panel, #flip {
+        padding: 5px;
+        text-align: center;
+        background-color: #e5eecc;
+        border: solid 1px #c3c3c3;
+      }
+      #panel {
+        padding: 50px;
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="center">
+  <p> <a href="file:///home/ukistu04/Documents/uki4/Programming/website/website.html"> Home </a> |
+      <a href="file:///home/ukistu04/Desktop/form.html"> Form </a> |
+      <a href="file:///home/ukistu04/Documents/uki4/Programming/bootstrap/timetable.html"> TimeTable </a>
+  </p>
+    </div>
+    <div class="image_center">
+      <img src="./website_files/cropped-cropped-logo-copy-copy.png" alt="" class="uki">
+    </div><br><br><br>
+    <div id="flip">welcome </div>
+      <div id="panel">hey uki</div><br>
+
+      <div class="welcome">
+    Welcome to Uki : Stepping stone to tech life</h2>
+      <p1><p>It is a full scholarship based Accelerator program for Coding in Jaffna,
+        Sri Lanka targeting students who has completed Advanced Level examinations
+        and don’t have access to university education or any other form of vocational
+        education. It is aimed to provide the necessary
+        training to enter Computer Software industry or to start an IT startup.
+        This is a joint initiative by Yarl IT Hub and SERVE Foundation.
+        Yarl IT Hub has been functioning for the last five years as a not for profit social
+        enterprise focusing on technology entrepreneurship in northern Sri Lanka and SERVE
+        Foundation is a four year old foundation focusing on using technology to uplift secondary
+        education standards in rural schools in northern Sri Lanka.</p>
+    </div><br>
+    <br><script>
+    $(document).ready(function(){
+      $("h2").hover(function(){
+        $(this).css("background-color", "lightblue");
+        }, function(){
+        $(this).css("background-color", "gray");
+      });
+    });
+    </script>
+          <div class="ul">
+          <h2>Course </h2>
+          <p>Our Vision is to be a leading center of excellence in teaching, learning,
+          research and scholarship.</p>
+          <ul>
+            <li>Programming</li>
+            <li>Basic Business Skills</li>
+            <li>Spoken English and Communication Skills</li>
+            <li>Personal Coaching</li>
+
+          </ul><button id="hide">Hide</button>
+          <button id="show">Show</button>
+        </div>
+          <div class="ue  ">
+            <h2>       CODING ACCELERATOR PROGRAM</h2>
+            <p>This Coding Accelerator program is an intensive training on
+          full-stack development with server-side Node.js and modern,
+          client-side, front-end libraries and frameworks.Throughout
+           this intensive course the student will study
+          professional software development techniques and practices
+          as he/she advances his/her skills on JavaScript.</p>
+        </div><br><br>
+  <div class="bog" align="center">
+    2017 ©Uki All Rights Reserved. A joint initiative by Yarl IT Hub and SERVE Foundation </div>
+
+
+</body></html>
